@@ -15,7 +15,15 @@ $locations = array(
 	"http://www.closermag.fr/video/patrick-balkany-insulte-un-reporter-du-petit-journal-video-698542",
 	"http://lelab.europe1.fr/video-patrick-balkany-aime-toujours-autant-les-cons-de-journalistes-vous-etes-des-gens-epouvantables-2953373",
 	"https://www.mediapart.fr/journal/france/170117/chez-les-balkany-meme-les-bijoux-passent-par-les-paradis-fiscaux",
-	"http://www.paris-normandie.fr/ouverture/giverny--une-ex-employee-du-moulin-de-cossy-accuse-les-balkany-HH8238889"
+	"http://www.paris-normandie.fr/ouverture/giverny--une-ex-employee-du-moulin-de-cossy-accuse-les-balkany-HH8238889",
+	"http://www.leparisien.fr/levallois-perret-92300/alexandre-balkany-en-prison-22-%C2%B202-2017-6700716.php",
+	"http://www.lefigaro.fr/flash-actu/2016/12/13/97001-20161213FILWWW00045-l-affaire-qui-preoccupe-le-couple-balkany.php",
+	"http://www.huffingtonpost.fr/2016/12/13/le-mariage-suspect-la-nouvelle-affaire-qui-eclabousse-les-bal/",
+	"http://www.lefigaro.fr/elections/presidentielles/2017/02/02/35003-20170202ARTFIG00154-les-republicains-tournent-la-page-balkany-dans-les-hauts-de-seine.php",
+	"http://www.leparisien.fr/info-paris-ile-de-france-oise/levallois-deux-nouveaux-revers-judiciaires-pour-les-balkany-09-11-2016-6309069.php",
+	"http://www.humanite.fr/et-de-deux-nouvelles-mises-en-examen-pour-balkany-618759",
+	"http://www.lepoint.fr/societe/dans-la-famille-balkany-le-juge-demande-le-fils-02-03-2017-2108686_23.php",
+	"http://www.linternaute.com/actualite/politique/1367250-reserve-parlementaire-patrick-balkany-a-verse-100-000-euros-a-levallois-perret/"
 );
 
 header("Location: " . $locations[rand(0, count($locations)-1)], true, 307);
